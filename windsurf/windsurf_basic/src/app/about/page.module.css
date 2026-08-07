@@ -1,0 +1,91 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: var(--secondary);
+}
+
+.section {
+    margin-bottom: 6rem;
+}
+
+.bio {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--foreground-muted);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skillCard {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skillCard:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+}
+
+.skillName {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timelineItem {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--accent);
+}
+
+.timelineDate {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.timelineTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.timelineDesc {
+    color: var(--foreground-muted);
+}

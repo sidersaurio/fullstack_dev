@@ -1,0 +1,60 @@
+import { BlogPost } from "@/types/blog";
+
+export const MOCK_POSTS: BlogPost[] = [
+    {
+        id: "1",
+        title: "Understanding Next.js App Router",
+        excerpt: "A deep dive into the new App Router in Next.js 13+ and how it changes the way we build React applications. Learn about Server Components, layouts, and data fetching patterns.",
+        slug: "understanding-nextjs-app-router",
+        date: "2024-03-15",
+        content: "This is the full content of the post. Next.js App Router introduces a new model for building applications using React's latest features like Server Components, Streaming, and Suspense. It's a paradigm shift that offers improved performance and developer experience.",
+    },
+    {
+        id: "2",
+        title: "Mastering Tailwind CSS",
+        excerpt: "Tips and tricks to write cleaner, more maintainable CSS using utility classes. Discover how to build responsive designs faster and customize your theme efficiently.",
+        slug: "mastering-tailwind-css",
+        date: "2024-03-10",
+        content: "Tailwind CSS is a utility-first CSS framework that allows you to build modern websites without ever leaving your HTML. By composing classes, you can create custom designs with ease. Learn how to configure your tailwind.config.js and use arbitrary values.",
+    },
+    {
+        id: "3",
+        title: "The Future of Web Development",
+        excerpt: "Exploring emerging trends and technologies that will shape the web in 2025. From AI-assisted coding to WebAssembly and the edge, see what's coming next.",
+        slug: "future-web-development",
+        date: "2024-03-05",
+        content: "The web is evolving rapidly. WebAssembly is opening doors for high-performance applications in the browser. AI tools are becoming integral to the development workflow. Edge computing is bringing logic closer to the user for faster response times.",
+    },
+    {
+        id: "4",
+        title: "TypeScript Best Practices",
+        excerpt: "How to use TypeScript effectively to catch bugs early and improve code quality. We'll cover generics, utility types, and strict mode configuration.",
+        slug: "typescript-best-practices",
+        date: "2024-03-01",
+        content: "TypeScript adds static typing to JavaScript, making code more robust and easier to maintain. Key practices include using strict mode, leveraging utility types like Partial and Pick, and avoiding the 'any' type whenever possible.",
+    },
+    {
+        id: "5",
+        title: "Building Accessible Web Apps",
+        excerpt: "A comprehensive guide to web accessibility (a11y). Learn how to use semantic HTML, ARIA labels, and keyboard navigation to make your site usable for everyone.",
+        slug: "building-accessible-apps",
+        date: "2024-02-28",
+        content: "Accessibility is not just a checklist; it's about inclusivity. Semantic HTML provides the foundation. ARIA attributes fill in the gaps for dynamic content. ensuring full keyboard navigation support is crucial for users who rely on assistive technologies.",
+    },
+    {
+        id: "6",
+        title: "State Management in 2024",
+        excerpt: "Comparing Redux, Zustand, Jotai, and React Context. Which one should you choose for your next project? We analyze the pros and cons of each.",
+        slug: "state-management-2024",
+        date: "2024-02-25",
+        content: "State management libraries have evolved. Redux Toolkit simplified Redux. Zustand offers a minimalistic API. Jotai provides atomic state management. React Context is great for low-frequency updates. Choose the right tool based on your app's complexity.",
+    },
+    {
+        id: "7",
+        title: "Optimizing React Performance",
+        excerpt: "Techniques to speed up your React applications. Learn about useMemo, useCallback, code splitting, and how to prevent unnecessary re-renders.",
+        slug: "optimizing-react-performance",
+        date: "2024-02-20",
+        content: "Performance is key to user retention. React provides hooks like useMemo and useCallback to optimize expensive calculations and function references. Code splitting with React.lazy allows you to load only the code needed for the current view.",
+    },
+];
